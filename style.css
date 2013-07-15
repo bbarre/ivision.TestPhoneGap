@@ -1,0 +1,73 @@
+body {
+    font-family:'Helvetica';
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#settings {
+    float:left;
+    #text-align:center;
+    #border: 1px solid black;
+    #background:#2AA400;   
+}
+
+#titre {
+    background:#1a171b;
+    text-align:center;
+}
+
+#post {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    height:450px;
+}
+
+footer {
+
+}
+
+#sommairepost {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    # background-color:#FFD700;
+    # height:200px;
+    # width:100px;
+    border: 1px solid black;
+    float: left;
+}
+
+#contenupost {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    float:right;
+}
+
+#captureecran {
+    margin: 10px;
+    border: 1px solid black;
+    float:right;
+}
+
+#fonctions {
+    margin: 10px;
+    float:left;
+}
+    
+.bouton a {
+display:block;
+width:120px;
+line-height:40px;
+text-align:center;
+vertical-align:middle;
+background:url(img/boutonnoir.png) no-repeat;
+color:white;
+text-decoration:none;
+}
+
+.bouton a:hover {
+background:url(img/boutonnoir2.png) no-repeat;
+}
